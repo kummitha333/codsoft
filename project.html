@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center><title>Projects</title> 
+</head>
+<style>
+    .main{
+        width: 100%;
+        background: url(pic/bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        position: relative;
+        font-family: sans-serif;
+    }
+.projects-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.project {
+    background-color: #ebebebb7;
+    border-radius: 10px;
+    padding: 33px;
+    text-align: center;
+}
+
+.project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+@media screen and (max-width: 600px) {
+    .projects-section {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .project h2 {
+        font-size: 18px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+}
+
+</style>
+<body>
+    <h1>Projects</h1>
+    <div class="main">
+    <div class="projects-section">
+        <div class="project">
+            <h2>Artificial Intelligence with Python-Microsoft</h2>
+            <img src="p1.jpg" alt="Project 1">
+
+            <p> Artificial Intelligence with Python-Microsoft</p>
+        </div>
+
+        <div class="project">
+            <h2>Real Estate Management System</h2>
+            <img src="Screenshot 2024-04-21 162943.png" alt="Project 2">
+            <h3>Abstract of this project :</h3>
+            
+            <p>The Real Estate Management system wi
+              provide facility to the 
+            user to search Residential Commercial and View property.
+            This system will provide facility to view the property by admin and user.User will able to  upload the property information to the site and able to manage it.This system will provide facility to the user to feedback to the site.This system will provide facility to the user to publish advertise to the site and view.
+            </p></h5>
+            <p>Real Estate Management System-(frontend,backend)</p>
+        </div>
+
+    
+    </div>
+    </div>
+</body>
+</html>
